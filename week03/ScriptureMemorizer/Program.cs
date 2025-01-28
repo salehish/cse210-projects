@@ -108,7 +108,7 @@ public class Scripture
         Console.Write(Reference.Text + ": ");
         Console.WriteLine(string.Join(" ", Words.Select(w => w.GetDisplayText())));
         
-        Console.WriteLine("Please press Enter to continue or type 'quit' to finish:");
+        Console.WriteLine("Please press Enter to continue or Type 'quit' to finish:");
     }
 
     public bool IsComplete()
