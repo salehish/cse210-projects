@@ -195,20 +195,20 @@ class Program
 {
     static void Main()
     {
-        Address address1 = new Address("123 Main Street", "Anytown", "CA", "USA");
-        Address address2 = new Address("456 Maple Street", "Othertown", "ON", "Canada");
-        Address address3 = new Address("456 ", "Othertown", "ON", "Mexico");
+        Address address1 = new Address("123 First street", "Town", "CA", "USA");
+        Address address2 = new Address("456 Yonge street", "Othertown", "ON", "Canada");
+        Address address3 = new Address("456 ", "Avenues", "ON", "Mexico");
 
 
-        Customer customer1 = new Customer("Saleh Ntege", address1);
-        Customer customer2 = new Customer("Aminah Nakalyowa", address2);
-        Customer customer3 = new Customer("Ivan Kasango", address3);
+        Customer customer1 = new Customer("Ambayo Roney", address1);
+        Customer customer2 = new Customer("Kaudha Josephine", address2);
+        Customer customer3 = new Customer("Ngobi Aaron", address3);
 
-        Product product1 = new Product("Doohickey", "D404", 12.99m, 2);
-        Product product2 = new Product("Thingy", "T202", 5.99m, 3);
-        Product product3 = new Product("Gadget", "G303", 7.99m, 1);
-        Product product4 = new Product("Flimflam", "F505", 8.99m, 3);
-        Product product5 = new Product("Widget", "W101", 10.99m, 2);
+        Product product1 = new Product("Saw", "D404", 12.99m, 2);
+        Product product2 = new Product("Thingy", "TQ10", 5.29m, 3);
+        Product product3 = new Product("wedge", "GY03", 10.91m, 2);
+        Product product4 = new Product("Generator", "FS19", 5.9m, 1);
+        Product product5 = new Product("hummer", "WZ210", 12.99m, 3);
 
         Order order1 = new Order(customer1);
         order1.AddProduct(product1);

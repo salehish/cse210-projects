@@ -50,24 +50,24 @@ class Program
 
      // Create video instances and adding comments
        
-        Video video1 = new Video(" Basics for Beginners", "Bob Williams", 550);
-        video1.AddComment(new Comment("Ronnie Mbayo", "This is exactly what I needed it's super nice thanks."));
-        video1.AddComment(new Comment("Aminah Nakalyowa", "it's really awsome for the beginners."));
-        video1.AddComment(new Comment("Ronald Kasango", "This is a good start for the beginners for sure, thanks."));
+        Video video1 = new Video(" Excel tutorial for beginners", "Kevin Stratvert", 400);
+        video1.AddComment(new Comment("Menya Isaac", "Awesome thank you Kevin."));
+        video1.AddComment(new Comment("Ugoma Gloria", "it has taught me what l didnt know."));
+        video1.AddComment(new Comment("Ronald Bamutesiza", "Perfect, this is what l was looking for."));
         videos.Add(video1);
 
-        Video video2 = new Video("Understanding Polymorphism", "Alice Johnson", 360);
-        video2.AddComment(new Comment("Francis Kato", "Very helpfull, thanks so much."));
-        video2.AddComment(new Comment("Joan Kulabako", "I love watching this video it's super nice."));
-        video2.AddComment(new Comment("Marvin Baliraine", " Super great explanation of polymorphism."));
-        video2.AddComment(new Comment("Mariam Fatuma", " This is really understandable, thanks so much."));
+        Video video2 = new Video("Python for beginners", "Mosh Allans", 460);
+        video2.AddComment(new Comment("Anigo agnes", "Very helpfull, thanks so much."));
+        video2.AddComment(new Comment("Marvin Byansi", "I love programming."));
+        video2.AddComment(new Comment("Majorie Nakato", " Super great explanation of polymorphism."));
+        
         videos.Add(video2);
 
-        Video video3 = new Video("Alice in wonderland", "Lorina Charlotte", 680);
-        video3.AddComment(new Comment("Saleh Ntege", "I Love this video it's very educative."));
-        video3.AddComment(new Comment("Violet Mariam", "Fantastic video and super cool with advanture."));
-        video3.AddComment(new Comment("Willy Joseph", "This is super lovely to watch during free time."));
-        video3.AddComment(new Comment("Nephi Sempala", "This mazing video it's super nice."));
+        Video video3 = new Video("Navigating Crypto", "Blum Ketra", 520);
+        video3.AddComment(new Comment("Komaketch Ivan", "I Love this video it's very educative."));
+        video3.AddComment(new Comment("James Balyomusi", "l really love trading."));
+        video3.AddComment(new Comment("Opira Joseph", "This is what l was looking for."));
+        video3.AddComment(new Comment("Alpha Ayemba", "This mazing video it's super nice."));
         videos.Add(video3);
 
         // Iterating through the videos and displaying inf
